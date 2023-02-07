@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Project-ID: 50163\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.14.1/addons/kt_order_status_history.po\n"
+"X-Crowdin-File-ID: 5591\n"
+"PO-Revision-Date: 2021-12-09 08:29\n"
+
+msgctxt "Addons::name::kt_order_status_history"
+msgid "Order status change history"
+msgstr "KT: История изменения статусов заказов"
+
+msgctxt "Addons::description::kt_order_status_history"
+msgid "The addon allows to tracks events of changes in order status and logs them"
+msgstr "Модуль отслеживает события изменения статуса заказа и логирует их"
+
+msgctxt "Languages::kt_order_status_history_menu"
+msgid "Order status change history"
+msgstr "История изменения статусов заказов"
+
+msgctxt "Languages::kt_status_old"
+msgid "Old status"
+msgstr "Старый статус"
+
+msgctxt "Languages::kt_status_new"
+msgid "New status"
+msgstr "Новый статус"
+
+msgctxt "Languages::kt_changed_by"
+msgid "Changed by whom"
+msgstr "Кем изменен"
+
+msgctxt "Languages::kt_none_auth_user"
+msgid "Not auth user"
+msgstr "Неавторизованный покупатель"

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>kt_order_status_history</id>
+    <version>1.0</version>
+    <default_language>en</default_language>
+    <priority>100</priority>
+    <position>0</position>
+    <status>active</status>
+    <supplier>KisTata</supplier>
+    <queries>
+        <item for="install">
+            CREATE TABLE IF NOT EXISTS `?:kt_order_statuses_history` (
+            `id` INT UNSIGNED AUTO_INCREMENT NOT NULL,
+            `order_id` INT(12) UNSIGNED NOT NULL,
+            `status_old` VARCHAR(2) NOT NULL,
+            `status_new` VARCHAR(2) NOT NULL,
+            `date` VARCHAR(255) NOT NULL,
+            `changed_by_id` VARCHAR(12) NOT NULL,
+            `user_type` VARCHAR(2) NOT NULL,
+            PRIMARY KEY (`id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8
+        </item>
+    </queries>
+</addon>
